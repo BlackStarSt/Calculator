@@ -1,6 +1,8 @@
 let keys = document.querySelectorAll('.number');
+const display = document.getElementById('display');
+
 keys.forEach(function(i) {
     i.addEventListener('click', (e) => {
-        console.log(e.target.value);
+        display.innerHTML = e.target.value;
     })
 })
