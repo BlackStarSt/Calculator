@@ -7,6 +7,5 @@ keys.forEach(function(i) {
     i.addEventListener('click', (e) => {
         arrayDisplay.push(e.target.value);
         display.innerText = arrayDisplay.join('');
-        console.log(arrayDisplay);
-    })
-})
+    });
+});
